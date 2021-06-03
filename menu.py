@@ -1,15 +1,15 @@
 
 
 class Menu():
-    def __init__(self, menuid, menu_name, menu_price, menu_description, menu_status):
-        self.menuid=muenuid
+    def __init__(self, menunum, menu_name, menu_price, menu_description, menu_status):
+        self.menunum=muenunum
         self.menu_name=menu_name
         self.menu_price=menu_price
         self.menu_description=menu_description
         self.menu_status=menu_status
 
-    def getMenuID(self):
-        return self.menuid
+    def getMenuNum(self):
+        return self.menunum
 
     def getMenu_Name(self):
         return self.menu_name
@@ -23,12 +23,6 @@ class Menu():
     def getMenu_Status(self):
         return self.
         
-    def addMenu(self, m):
-        self.menuid.append(m)
-
-    def removeMenu(self, m):
-        self.menuid.append(m)
-
     def __str__(self):
         return self.menu_name
 
